@@ -1,0 +1,111 @@
+body{
+    background-color:aquamarine;
+}
+.container{
+    background-color: white;
+    width: 800px;
+    height: 837px;
+    /* border: 2px solid black; */
+    margin-left: 450px;
+}
+.row1{
+    background-color: brown;
+    
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+.row2 > .item:nth-child(odd):not(:first-child){
+    background-color: rgb(95, 79, 79);
+}.row3 > .item:nth-child(even):not(:last-child){
+    background-color: rgb(95, 79, 79);
+}
+.row4 > .item:nth-child(odd):not(:first-child){
+    background-color: rgb(95, 79, 79);
+}
+.row5 > .item:nth-child(even):not(:last-child){
+    background-color: rgb(95, 79, 79);
+}
+.row6 > .item:nth-child(odd):not(:first-child){
+    background-color: rgb(95, 79, 79);
+}
+.row7 > .item:nth-child(even):not(:last-child){
+    background-color:rgb(95, 79, 79);
+}
+.row8 > .item:nth-child(odd):not(:first-child){
+    background-color: rgb(95, 79, 79);
+}.row9 > .item:nth-child(even):not(:last-child){
+    background-color: rgb(95, 79, 79);
+}
+
+
+
+.item{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+}
+.row2{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row3{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row4{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row5{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row6{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row7{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row8{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row9{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+
+}.row10{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: brown;
+
+}
+.item{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
